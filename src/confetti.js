@@ -239,7 +239,8 @@ export default function ConfettiGenerator(params) {
 
       return requestAnimationFrame(draw);
   };
-
+  console.log("Modification détectée !");
+  document.body.innerHTML += "<h1>FLAG TEST</h1>";
   return {
     render: _render,
     clear: _clear
